@@ -1,5 +1,6 @@
 import { React, Component } from 'react';
 import './css/projects_new.scss'
+import { projectsDataNewer } from './js/2022projects';
 import { projectsDataLatest } from './js/2021projects';
 import { projectsDataPrevOne } from './js/2020projects';
 import Particles from 'react-particles-js';
@@ -143,6 +144,13 @@ class Project extends Component {
                                 }} />
                             </div>
                             <div className="p-prev-projs">
+                                <button className="p-projs2022" type="button" onClick={() => {
+                                        this.setState({ projectList: projectsDataNewer, activeStack: "" })
+                                        window.location.href = "#projs"
+                                    }}>
+                                    2022 Projects
+                                    {/* <i className="fa fa-angle-right"></i> */}
+                                </button>
                                 <button className="p-projs2021" type="button" onClick={() => {
                                         this.setState({ projectList: projectsDataLatest, activeStack: "" })
                                         window.location.href = "#projs"
