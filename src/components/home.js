@@ -92,7 +92,7 @@ class Home extends Component {
                         <h3>About <span>SWOC</span></h3>
                         <p>
                             Script Winter of Code is an open-source program envisioned by the
-                            Script Foundation. It aims to bring students into the world of open
+                            Social. It aims to bring students into the world of open
                             source development and see the power of unified problem-solving in
                             real time. The projects that we will host have been carefully
                             hand-picked to invigorate creative thinking and encourage
@@ -191,7 +191,7 @@ class Home extends Component {
                             <h3>Overview</h3>
                             <p>
                                 Script Winter Of Code is the 3 month long open source program by
-                                Script Foundation India , with the aim to introduce more and more
+                                Social India , with the aim to introduce more and more
                                 people to the world of Open source. In this program all the selected
                                 participants will get a chance to work on various exciting projects
                                 under the guidance of experienced Mentors.

@@ -14,7 +14,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 import Home from './home';
 import Project from './project';
-import Team from './team';
+// import Team from './team';
 
 
 class Index extends Component {
@@ -93,9 +93,9 @@ class Index extends Component {
                     <Route exact path="/project">
                         <Project />
                     </Route>
-                    <Route exact path="/team">
+                    {/* <Route exact path="/team">
                         <Team />
-                    </Route>
+                    </Route> */}
                 </Switch>                
 
                 {/* footer */}
@@ -126,13 +126,13 @@ class Index extends Component {
                                         </div>
                                         <div className="footer-copyright-info">
                                             <div className="footer-copyright-right">
-                                            Copyright © 2020 Script Foundation under the GPL3 license. All
+                                            Copyright © 2020 Social under the GPL3 license. All
                                             rights reserved.
                                             </div>
                                         </div>
                                     </div>
                                     <div className="f-logo">
-                                        <img src={"/img/46463_Script Foundation_Logo_RD_01.png"} alt="logo" className="logo-footer" />
+                                        <img src={"/img/Social logo.png"} alt="logo" className="logo-footer" />
                                     </div>
                                 </div>
                             </div>
@@ -142,13 +142,15 @@ class Index extends Component {
                             <div className="f-bottom-row">
                                 <div className="f-bottom">
                                     <div className="f-bottom-left">
-                                        <p>Script Foundation</p>
+                                        <p>Social</p>
                                         {/* <img src={"./img/ScriptFoundation_Logo_RD_02.png"} style={{ "width": "162px"}}></img> */}
                                     </div>
                                     <div className="f-bottom-right">
                                         <p>
                                             Made with ❤️ by
-                                            <a className="yellow-text underline" href="https://scriptindia.org" target="_blank"> Script Foundation</a>
+                                            <a className="yellow-text underline" href="https://github.com/aku1310" target="_blank"> Akanksha </a>
+                                             and 
+                                            <a className="yellow-text underline" href="https://github.com/VishrutAggarwal" target="_blank"> Vishrut</a>
                                         </p>
                                     </div>
                                 </div>
