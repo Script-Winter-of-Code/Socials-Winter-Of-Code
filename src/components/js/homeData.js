@@ -68,41 +68,75 @@ export const timelineItems = [
 
 export const prizeItems = [
     {
-        prizeTitle: "Top contributors",
-        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/img/logos/Devfolio_Logo.svg",
-    },
-    {
-        prizeTitle: "Top contributors",
-        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/img/logos/Devfolio_Logo.svg",
-    },
-    {
-        prizeTitle: "Top contributors",
-        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/img/logos/Devfolio_Logo.svg",
-    },
-    {
-        prizeTitle: "Top contributors",
-        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/img/logos/Devfolio_Logo.svg",
-    },
-    {
-        prizeTitle: "Top contributors",
-        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/img/logos/Devfolio_Logo.svg",
-    },
-    {
-        prizeTitle: "Top contributors",
-        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/img/logos/Devfolio_Logo.svg",
-    },
+        prizeTitle: "Special Prizes",
+        provider: "Polygon",
+        prizeDescription: `₹10,000 for the best hack built on Ethereum, or |
+            ₹15,000 for the best hack built on Ethereum + Polygon, |
+            Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!`,
+        prizeVector: "/img/logos/Polygon_Logo.svg",
+        more: "Read about the bounty details and find code templates for Polygon here.", 
+        // "Learn more about the Polygon Track Prize.",
+        prizeLink:
+          "https://replit.com/@devfolio/Polygon-Smart-Contract-Template?v=1#README.md",
+      },
+      {
+        prizeTitle: "Special Prizes",
+        provider: "Filecoin",
+        prizeDescription: `₹20000 for best use of IPFS and/or Filecoin`,
+        prizeVector: "/img/logos/Filecoin-Coloured-White-Text.svg",
+        more: "Read about the bounty details and find code templates for Filecoin here.",
+        // "Learn more about the Filecoin Track Prize here.",
+        prizeLink:
+          "https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203",
+      },
+      {
+        prizeTitle: "Special Prizes",
+        provider: "Solana",
+        prizeDescription: `young gun - $USDC 100 for the best project beginners just starting out on Solana and/or | 
+        rising teknoking - $USDC 250 for the best project that goes into depth, demonstrating higher-order code and/or | 
+        master glasseater - $USDC 500 for the best advanced project that is almost ready for full-time development.`,
+        prizeVector: "/img/logos/solana-sol-logo.svg",
+        more: "Read about the bounty details and find code templates for Solana here.",
+        // "Learn more about the Filecoin Track Prize here.",
+        prizeLink:
+          "https://replit.com/@devfolio/Solana-Starter?v=1#README.md",
+      },
+      {
+        prizeTitle: "Special Prizes",
+        provider: "Replit",
+        prizeDescription: `5,000 INR to winning project of the hackathon (must be deployed on Replit) | 
+        Replit schwags to 5 eligible submissions deployed on Replit.  | 
+        Eligibility to apply for internship/full-time roles at Replit.`,
+        prizeVector: "/img/logos/replit-logo-svg-vector.svg",
+        more: "Read more about the bounty details for Replit here.",
+        // "Learn more about the Filecoin Track Prize here.",
+        prizeLink:
+          "https://devfolio.notion.site/Replit-Devfolio-Hackathon-Season-Prize-62e78fd4d4f14cbc85ecfe97bcfd62d7",
+      },
+    // {
+    //     prizeTitle: "Top contributors",
+    //     prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
+    //     prizeVector: "/img/logos/Devfolio_Logo.svg",
+    // },
+    // {
+    //     prizeTitle: "Top contributors",
+    //     prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
+    //     prizeVector: "/img/logos/Devfolio_Logo.svg",
+    // },
 ]
 
 export const GoldSponsors = [
     {
         sponsorLink: "https://filecoin.io/",
         sponsorImg: "/img/logos/Filecoin-Coloured-White-Text.svg",
+    },
+    {
+        sponsorLink: "https://solana.com/",
+        sponsorImg: "/img/logos/solana-sol-logo.svg",
+    },
+    {
+        sponsorLink: "https://replit.com/",
+        sponsorImg: "/img/logos/replit-logo-svg-vector.svg",
     }
 ]
 
@@ -110,6 +144,10 @@ export const PlatSponsors = [
     {
         sponsorLink: "https://polygon.technology/",
         sponsorImg: "/img/logos/Polygon_Logo.svg",
+    },
+    {
+        sponsorLink: "https://devfolio.co/",
+        sponsorImg: "/img/logos/Devfolio_Logo.svg",
     }
 ]
 export const PlatformPartners = [
