@@ -73,7 +73,7 @@ export const prizeItems = [
         prizeDescription: `₹10,000 for the best hack built on Ethereum, or |
             ₹15,000 for the best hack built on Ethereum + Polygon, |
             Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!`,
-        prizeVector: "/img/logos/Polygon_Logo.svg",
+        prizeVector: "./img/logos/Polygon_Logo.svg",
         more: "Read about the bounty details and find code templates for Polygon here.", 
         // "Learn more about the Polygon Track Prize.",
         prizeLink:
@@ -83,7 +83,7 @@ export const prizeItems = [
         prizeTitle: "Special Prizes",
         provider: "Filecoin",
         prizeDescription: `₹20000 for best use of IPFS and/or Filecoin`,
-        prizeVector: "/img/logos/Filecoin-Coloured-White-Text.svg",
+        prizeVector: "./img/logos/Filecoin-Coloured-White-Text.svg",
         more: "Read about the bounty details and find code templates for Filecoin here.",
         // "Learn more about the Filecoin Track Prize here.",
         prizeLink:
@@ -95,7 +95,7 @@ export const prizeItems = [
         prizeDescription: `young gun - $USDC 100 for the best project beginners just starting out on Solana and/or | 
         rising teknoking - $USDC 250 for the best project that goes into depth, demonstrating higher-order code and/or | 
         master glasseater - $USDC 500 for the best advanced project that is almost ready for full-time development.`,
-        prizeVector: "/img/logos/solana-sol-logo.svg",
+        prizeVector: "./img/logos/solana-sol-logo.svg",
         more: "Read about the bounty details and find code templates for Solana here.",
         // "Learn more about the Filecoin Track Prize here.",
         prizeLink:
@@ -107,7 +107,7 @@ export const prizeItems = [
         prizeDescription: `5,000 INR to winning project of the hackathon (must be deployed on Replit) | 
         Replit schwags to 5 eligible submissions deployed on Replit.  | 
         Eligibility to apply for internship/full-time roles at Replit.`,
-        prizeVector: "/img/logos/replit-logo-svg-vector.svg",
+        prizeVector: "./img/logos/replit-logo-svg-vector.svg",
         more: "Read more about the bounty details for Replit here.",
         // "Learn more about the Filecoin Track Prize here.",
         prizeLink:
@@ -128,87 +128,87 @@ export const prizeItems = [
 export const GoldSponsors = [
     {
         sponsorLink: "https://filecoin.io/",
-        sponsorImg: "/img/logos/Filecoin-Coloured-White-Text.svg",
+        sponsorImg: "./img/logos/Filecoin-Coloured-White-Text.svg",
     },
     {
         sponsorLink: "https://solana.com/",
-        sponsorImg: "/img/logos/solana-sol-logo.svg",
+        sponsorImg: "./img/logos/solana-sol-logo.svg",
     },
     {
         sponsorLink: "https://replit.com/",
-        sponsorImg: "/img/logos/replit-logo-svg-vector.svg",
+        sponsorImg: "./img/logos/replit-logo-svg-vector.svg",
     }
 ]
 
 export const PlatSponsors = [
     {
         sponsorLink: "https://polygon.technology/",
-        sponsorImg: "/img/logos/Polygon_Logo.svg",
+        sponsorImg: "./img/logos/Polygon_Logo.svg",
     },
     {
         sponsorLink: "https://devfolio.co/",
-        sponsorImg: "/img/logos/Devfolio_Logo.svg",
+        sponsorImg: "./img/logos/Devfolio_Logo.svg",
     }
 ]
 export const PlatformPartners = [
     {
         sponsorLink: "https://skillenza.com/",
-        sponsorImg: "/img/logos/Skillenza_logo_platform_new.svg",
+        sponsorImg: "./img/logos/Skillenza_logo_platform_new.svg",
     }
 ]
 
 export const Sponsors = [
     {
         sponsorLink: "https://codingblocks.com/",
-        sponsorImg: "/img/logos/cb-min.png",
+        sponsorImg: "./img/logos/cb-min.png",
     },
     {
         sponsorLink: "https://dockship.io/",
-        sponsorImg: "/img/logos/dockship-min.png",
+        sponsorImg: "./img/logos/dockship-min.png",
     },
     {
         sponsorLink: "https://givemycertificate.com/",
-        sponsorImg: "/img/logos/gitvemycertifiacte-min.png",
+        sponsorImg: "./img/logos/gitvemycertifiacte-min.png",
     },
     {
         sponsorLink: "https://hackclub.com/bank/",
-        sponsorImg: "/img/logos/hackclub-min.png",
+        sponsorImg: "./img/logos/hackclub-min.png",
     },
     {
         sponsorLink: "https://1password.com/",
-        sponsorImg: "/img/logos/1password-min.png",
+        sponsorImg: "./img/logos/1password-min.png",
     },
     {
         sponsorLink: "https://balsamiq.com/",
-        sponsorImg: "/img/logos/balsamiq-logo-noborder-print-min.png",
+        sponsorImg: "./img/logos/balsamiq-logo-noborder-print-min.png",
     },
     {
         sponsorLink: "https://repl.it/",
-        sponsorImg: "/img/logos/replit-min.png",
+        sponsorImg: "./img/logos/replit-min.png",
     },
     {
         sponsorLink: "http://rosenfeldmedia.com/",
-        sponsorImg: "/img/logos/Rosenfeld-min.png",
+        sponsorImg: "./img/logos/Rosenfeld-min.png",
     },
     {
         sponsorLink: "https://www.jetbrains.com/",
-        sponsorImg: "/img/logos/jetbrains-min.png",
+        sponsorImg: "./img/logos/jetbrains-min.png",
     },
     {
         sponsorLink: "https://www.axure.com/",
-        sponsorImg: "/img/logos/axure.png",
+        sponsorImg: "./img/logos/axure.png",
     },
     {
         sponsorLink: "https://www.digitalocean.com/",
-        sponsorImg: "/img/logos/DO_Logo_Horizontal_Blue.png",
+        sponsorImg: "./img/logos/DO_Logo_Horizontal_Blue.png",
     },
     {
         sponsorLink: "https://www.sashido.io/en/",
-        sponsorImg: "/img/logos/sashido-logo-for sites.png",
+        sponsorImg: "./img/logos/sashido-logo-for sites.png",
     },
     {
         sponsorLink: "https://9ledgepro.com/",
-        sponsorImg: "/img/logos/9ledge.jpeg",
+        sponsorImg: "./img/logos/9ledge.jpeg",
     },
 
 ]
@@ -216,7 +216,7 @@ export const Sponsors = [
 export const CommunityPartners = [
     {
         sponsorLink: "https://indianblockchainfraternity.tech/",
-        sponsorImg: "/img/logos/",        
+        sponsorImg: "./img/logos/",        
     }
 ]
 

@@ -64,7 +64,7 @@ class Project extends Component {
                             </div>
                             <div className="p-header-vector">
                                 <div className="p-vector">
-                                    <a href="./index.html"><img src={"/img/p-4.svg"} /></a>
+                                    <a href="./index.html"><img src={"./img/p-4.svg"} /></a>
                                 </div>
                             </div>
                         </div>

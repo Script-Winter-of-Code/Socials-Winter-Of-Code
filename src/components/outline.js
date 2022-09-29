@@ -182,7 +182,7 @@ class Index extends Component {
                                         </div>
                                     </div>
                                     <div className="f-logo">
-                                        <img src={"/img/Social logo.png"} alt="logo" className="logo-footer" />
+                                        <img src={"./img/Social logo.png"} alt="logo" className="logo-footer" />
                                     </div>
                                 </div>
                             </div>

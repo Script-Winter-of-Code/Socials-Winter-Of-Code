@@ -80,7 +80,7 @@ class Team extends Component {
                             </div>
                             <div className="p-header-vector">
                                 <div className="p-vector">
-                                    <a href="./index.html"><img src={"/img/team.svg"} /></a>
+                                    <a href="./index.html"><img src={"./img/team.svg"} /></a>
                                 </div>
                             </div>
                         </div>
