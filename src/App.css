@@ -39,3 +39,8 @@ label {
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(80, 80, 80);
 }
+
+.apply-button {
+    height: 44px;
+    width: 312px;
+}

@@ -125,9 +125,9 @@ class Home extends Component {
                                             <p className="card-text">{item.cardText}</p>
                                             <div className="btn-apply">
                                                 {item.cardTitle.toLowerCase() == "participant" ?
-                                                    <div
-                                                        className="apply-button"
-                                                        data-hackathon-slug="swocs3"
+                                                    <div 
+                                                        class="apply-button" 
+                                                        data-hackathon-slug="swocs3" 
                                                         data-button-theme="light"
                                                     ></div>
                                                     :
