@@ -79,7 +79,7 @@ class Home extends Component {
                     <div className="header-content">
                         <h1>Social Winter of Code</h1>
                         <div className="header-logo">
-                            <a href="./index.html"><img src={"/img/logo-2.png"} /></a>
+                            <a href="./index.html"><img src="./img/logo-2.png" /></a>
                         </div>
                     </div>
                 </header>
@@ -107,7 +107,7 @@ class Home extends Component {
                     </div>
                     <div className="about-vector">
                         {/* <img src="./img/about.png" /> */}
-                        <img src={"/img/github.gif"} />
+                        <img src="./img/github.gif" />
                     </div>
                 </section>
 
@@ -185,7 +185,7 @@ class Home extends Component {
                 <section className="overview-section">
                     <div className="body-content overview-container">
                         <div className="overview-vector">
-                            <img src="/img/overview.svg" />
+                            <img src="./img/overview.svg" />
                         </div>
                         <div className="overview-content">
                             <h3>Overview</h3>
