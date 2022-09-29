@@ -253,7 +253,7 @@ export const FAQs = [
     {
         questionId: "question6",
         questionText: `By what time will the result be out?`,
-        answerText: `The results will be declared by 2nd week of March.`,
+        answerText: `The results will be declared by 2nd week of April.`,
     },
     {
         questionId: "question7",
@@ -263,7 +263,7 @@ export const FAQs = [
     {
         questionId: "question8",
         questionText: `What if I have questions other than the one mentioned ?`,
-        answerText: `You can contact us at abhishek@www.swoc.tech , all your queries would be answered.`,
+        answerText: `You can contact us at socialwinterofcode@gmail.com , all your queries would be answered.`,
     },
 
 ]
