@@ -22,8 +22,8 @@ export const registerItems = [
         beacon of light for our participants! As a mentor, you will guide 
         one team with your insights and experience all through their 
         hackathon journey.`,
-        applyLink: "",
-        applyStatus:"Coming Soon",
+        applyLink: "https://docs.google.com/forms/d/19qbZg1a_DSUAKizSxO_8RoAJCCu9jd-Jms17MmAWP4k/edit?ts=63427042",
+        applyStatus:"Register",
     },
 ]
 
