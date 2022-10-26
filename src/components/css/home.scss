@@ -188,7 +188,19 @@
     width: 100% !important;
   }
 
-  button {
+  // button {
+  //   border: none;
+  //   outline: none;
+  //   border: none;
+  //   padding: 6px 12px;
+  //   border-radius: 2px;
+  //   color: #fff;
+  //   font-weight: 400;
+  //   // font-family: "Poppins";
+  //   width: 100%;
+  //   font-size: 18px;
+  // }
+  a {
     border: none;
     outline: none;
     border: none;
@@ -199,6 +211,11 @@
     // font-family: "Poppins";
     width: 100%;
     font-size: 18px;
+    background: #3770ff;
+    text-align: center;
+  }
+  a:hover {
+    text-decoration: none;
   }
 }
 
