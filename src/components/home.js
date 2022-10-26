@@ -125,16 +125,17 @@ class Home extends Component {
                                             <p className="card-text">{item.cardText}</p>
                                             <div className="btn-apply">
                                                 {item.cardTitle.toLowerCase() == "participant" ?
-                                                    <div 
+(                                                    <div 
                                                         class="apply-button" 
                                                         data-hackathon-slug="swocs3" 
                                                         data-button-theme="light"
-                                                    ></div>
+                                                    ></div>)
                                                     :
-                                                    <button href={item.applyLink} target="_blank"
-                                                        className={item.applyStatus == "Apply" ? "" : "disabled"}
+                                                    (<a href={item.applyLink} target="_blank"
+                                                        className={item.applyStatus.toLowerCase() == "register" ? "" : "disabled"}
+                                                        // disabled={item.applyStatus.toLowerCase() != "register" ? "disabled" : ""}
                                                         readonly>{item.applyStatus}
-                                                    </button>
+                                                    </a>)
                                                 }
                                             </div>
                                         </div>
