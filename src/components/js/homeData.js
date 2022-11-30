@@ -5,8 +5,8 @@ export const registerItems = [
         mentor budding open-source enthusiasts from all different 
         backgrounds. Find students and professionals that share your 
         vision.`,
-        applyLink: "",
-        applyStatus:"Coming Soon",
+        applyLink: "https://forms.gle/eyQM8eJeSWKr3tCD6",
+        applyStatus:"Register",
     },
     {
         cardTitle: "Participant",
