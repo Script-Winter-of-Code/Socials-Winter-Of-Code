@@ -111,7 +111,7 @@ class Index extends Component {
                                     <ul className="navbar-nav mr-auto">
                                         {navItems.map((item, index) => {
                                             return (
-                                                <li key={index} className="nav-item"><a className="nav-link" href={item.url}>{item.title}</a></li>
+                                                <li key={index} className="nav-item"><Link to={item.url} className="nav-link">{item.title}</Link></li>
                                             )
                                         })}
                                     </ul>
