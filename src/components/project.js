@@ -3,6 +3,7 @@ import './css/projects_new.scss'
 import { projectsDataNewer } from './js/2022projects';
 import { projectsDataLatest } from './js/2021projects';
 import { projectsDataPrevOne } from './js/2020projects';
+import { projectsData2023 } from './js/2023projects';
 import Particles from 'react-particles-js';
 import { Snow } from './snow'
 import Aos from 'aos';
@@ -58,8 +59,8 @@ class Project extends Component {
                     <div className="p-header-box">
                         <div className="p-header row">
                             <div className="p-header-content">
-                                <h1>2021 Projects</h1>
-                                <p className="header-paragraph">Script Winter of Code aims to bring students into the world of open source development and see the power of unified problem-solving in real time. The projects that we will host have been carefully hand-picked to invigorate creative thinking and encourage collaboration among all participants.</p>
+                                <h1>2023 Projects</h1>
+                                <p className="header-paragraph">Social Winter of Code aims to bring students into the world of open source development and see the power of unified problem-solving in real time. The projects that we will host have been carefully hand-picked to invigorate creative thinking and encourage collaboration among all participants.</p>
                                 <p>The students will learn the skills essential in the world of programming, all the while developing a deep appreciation for the world of open-source.</p>
                             </div>
                             <div className="p-header-vector">
@@ -144,7 +145,14 @@ class Project extends Component {
                                 }} />
                             </div>
                             <div className="p-prev-projs">
-                                <button className="p-projs2022" type="button" onClick={() => {
+                                <button className="p-projs2023" type="button" onClick={() => {
+                                        this.setState({ projectList: projectsData2023, activeStack: "" })
+                                        window.location.href = "#projs"
+                                    }}>
+                                    2023 Projects
+                                    {/* <i className="fa fa-angle-right"></i> */}
+                                </button>
+                                <button className="p-projs2021" type="button" onClick={() => {
                                         this.setState({ projectList: projectsDataNewer, activeStack: "" })
                                         window.location.href = "#projs"
                                     }}>
