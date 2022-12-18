@@ -91,7 +91,7 @@ class Home extends Component {
                     <div className="about-content col-lg-7">
                         <h3>About <span>SWOC</span></h3>
                         <p>
-                            Script Winter of Code is an open-source program envisioned by the
+                            Social Winter of Code is an open-source program envisioned by the
                             Social. It aims to bring students into the world of open
                             source development and see the power of unified problem-solving in
                             real time. The projects that we will host have been carefully
@@ -191,7 +191,7 @@ class Home extends Component {
                         <div className="overview-content">
                             <h3>Overview</h3>
                             <p>
-                                Script Winter Of Code is the 3 month long open source program by
+                                Social Winter Of Code is the 3 month long open source program by
                                 Social India , with the aim to introduce more and more
                                 people to the world of Open source. In this program all the selected
                                 participants will get a chance to work on various exciting projects
@@ -199,7 +199,7 @@ class Home extends Component {
                             </p>
                             <p>
                                 Participants can select the project based on their interest and tech
-                                stack , and can communicate with mentors and project admin to know the
+                                stack, and can communicate with mentors and project admin to know the
                                 project better during the Community bonding Period .
                             </p>
                         </div>
