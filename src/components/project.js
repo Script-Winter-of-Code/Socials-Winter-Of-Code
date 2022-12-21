@@ -16,13 +16,13 @@ class Project extends Component {
         this.state = {
             width: window.innerWidth,
             height: window.innerHeight,
-            projectList: projectsDataLatest,
+            projectList: projectsData2023,
             randomColor: ["#fff"],
             activeStack: "",
             scrollStamp: 0,
             modalDisplay: "none",
             bodyOverflow: "initial",
-            modalData: projectsDataLatest[0],
+            modalData: projectsData2023[0],
         };
     }
 
@@ -152,7 +152,7 @@ class Project extends Component {
                                     2023 Projects
                                     {/* <i className="fa fa-angle-right"></i> */}
                                 </button>
-                                <button className="p-projs2021" type="button" onClick={() => {
+                                <button className="p-projs2022" type="button" onClick={() => {
                                         this.setState({ projectList: projectsDataNewer, activeStack: "" })
                                         window.location.href = "#projs"
                                     }}>
