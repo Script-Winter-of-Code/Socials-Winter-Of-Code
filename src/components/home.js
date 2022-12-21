@@ -7,6 +7,7 @@ import {
     timelineItems,
     prizeItems,
     GoldSponsors,
+    SilverSponsors,
     PlatSponsors,
     PlatformPartners,
     Sponsors,
@@ -317,6 +318,23 @@ class Home extends Component {
                                     <div className="community">
                                         <div className="row row-img grid" style={{ "justify-content": "center" }}>
                                             {GoldSponsors.map((item, index) => {
+                                                return (
+                                                    <div className="col-md-4 col-sm-6 img-div">
+                                                        <a href={item.sponsorLink} target="_blank">
+                                                            <img className="sponsor-img" src={item.sponsorImg} />
+                                                        </a>
+                                                    </div>
+                                                )
+                                            })}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-12">
+                                    <h3>Silver Sponsors</h3>
+                                    <br />
+                                    <div className="community">
+                                        <div className="row row-img grid" style={{ "justify-content": "center" }}>
+                                            {SilverSponsors.map((item, index) => {
                                                 return (
                                                     <div className="col-md-4 col-sm-6 img-div">
                                                         <a href={item.sponsorLink} target="_blank">
