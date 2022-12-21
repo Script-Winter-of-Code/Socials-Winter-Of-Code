@@ -140,7 +140,7 @@ class Index extends Component {
                     <Route exact path="/">
                         <Home />
                     </Route>
-                    <Route exact path="/project">
+                    <Route path="/project">
                         <Project />
                     </Route>
                     {/* <Route exact path="/team">
