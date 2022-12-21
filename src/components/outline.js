@@ -169,7 +169,7 @@ class Index extends Component {
                                                 <li><a href="/#sponsors">Sponsors</a></li>
                                             </ul>
                                             <ul className="f-nav-ul">
-                                                <li><a href="/project">Projects</a></li>
+                                                <li><Link to="/project">Projects</Link></li>
                                                 <li><a href="/#timeline">Timeline</a></li>
                                                 <li><a href="mailto:support@www.swoc.tech">Help</a></li>
                                             </ul>
