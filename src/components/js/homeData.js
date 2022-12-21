@@ -140,6 +140,13 @@ export const GoldSponsors = [
     }
 ]
 
+export const SilverSponsors = [
+    {
+        sponsorLink: "https://www.quine.sh/",
+        sponsorImg: "./img/logos/dark@2x.png",
+    }
+]
+
 export const PlatSponsors = [
     {
         sponsorLink: "https://polygon.technology/",
