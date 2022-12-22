@@ -124,7 +124,7 @@ class Index extends Component {
                                     <ul>
                                         {navItems.map((item, index) => {
                                             return (
-                                                <li key={index} className={item.title.toLowerCase() == this.state.page && "nav-active"}><a href={item.url}>{item.title}</a></li>
+                                                <li key={index} className={item.title.toLowerCase() == this.state.page && "nav-active"}><Link to={item.url}>{item.title}</Link></li>
                                             )
                                         })}
                                     </ul>
@@ -140,7 +140,7 @@ class Index extends Component {
                     <Route exact path="/">
                         <Home />
                     </Route>
-                    <Route path="/project">
+                    <Route exact path="/project">
                         <Project />
                     </Route>
                     {/* <Route exact path="/team">
