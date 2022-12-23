@@ -5,8 +5,9 @@ export const registerItems = [
         mentor budding open-source enthusiasts from all different 
         backgrounds. Find students and professionals that share your 
         vision.`,
-        applyLink: "https://forms.gle/eyQM8eJeSWKr3tCD6",
-        applyStatus:"Register",
+        applyLink: "",
+        // applyLink: "https://forms.gle/eyQM8eJeSWKr3tCD6",
+        applyStatus:"Closed",
     },
     {
         cardTitle: "Participant",
@@ -22,8 +23,9 @@ export const registerItems = [
         beacon of light for our participants! As a mentor, you will guide 
         one team with your insights and experience all through their 
         hackathon journey.`,
-        applyLink: "https://docs.google.com/forms/d/19qbZg1a_DSUAKizSxO_8RoAJCCu9jd-Jms17MmAWP4k/edit?ts=63427042",
-        applyStatus:"Register",
+        applyLink: "",
+        // applyLink: "https://docs.google.com/forms/d/19qbZg1a_DSUAKizSxO_8RoAJCCu9jd-Jms17MmAWP4k/edit?ts=63427042",
+        applyStatus:"Closed",
     },
 ]
 
