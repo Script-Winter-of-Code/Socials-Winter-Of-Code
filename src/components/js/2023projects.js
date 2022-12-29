@@ -245,7 +245,7 @@ export const projectsData2023 = [
     },
     {
         Name: 'Codeless Builder',
-        Repo: 'https://github.com/aryasoni98/Codeless-Builder',
+        Repo: 'https://github.com/orgs/Codeless-Builder/repositories',
         Owner: 'Arya Soni',
         github: 'https://github.com/aryasoni98',
         linkedin: '',
