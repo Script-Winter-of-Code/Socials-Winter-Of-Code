@@ -146,6 +146,10 @@ export const SilverSponsors = [
     {
         sponsorLink: "https://www.quine.sh/",
         sponsorImg: "./img/logos/dark@2x.png",
+    },
+    {
+        sponsorLink: "https://fossunited.org/",
+        sponsorImg: "./img/logos/black-hackathon.svg",
     }
 ]
 
