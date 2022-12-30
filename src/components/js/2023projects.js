@@ -1,5 +1,20 @@
-export const projectsData2023 = [
+export const featured2023 = [
+    {
+        Name: 'Make Your Own Project',
+        Description: `Make Your Own Open Source Project is an opportunity for individuals or groups to create and contribute to an open source project during the Social Winter of Code Season 3. This program is designed to support and encourage the development of innovative and impactful open source projects that address social and humanitarian issues.
 
+        Participants will have the opportunity to work with experienced mentors and a community of like-minded individuals to develop their project ideas and bring them to fruition. Throughout the program, participants will have access to resources and support to help them develop their skills and knowledge as open source contributors.
+        
+        The Make Your Own Open Source Project program is open to individuals of all skill levels, from beginners to experienced open source contributors. Whether you are a developer, designer, researcher, or have another area of expertise, there is a place for you in this program.
+        
+        The Social Winter of Code Season 3 is a great opportunity to make a positive impact on the world through the development of open source projects. We encourage you to apply and become a part of this exciting community of changemakers.`,
+        Tag: `feature`,
+        TechStack: ["Tech Stack of Your Choice"],
+        Owner: 'You will be the owner of the repository'
+    },
+];
+
+export const projectsData2023 = [
     {
         Name: 'Stunning Scripts',
         Repo: 'https://github.com/Subhradeep10/Stunning-Scripts',
