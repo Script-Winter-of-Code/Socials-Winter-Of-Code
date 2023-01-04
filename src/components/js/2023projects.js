@@ -146,8 +146,8 @@ export const projectsData2023 = [
         Repo: 'https://github.com/TusharKesarwani/Front-End-Projects',
         Owner: 'Tushar Kesarwani',
         github: 'https://github.com/TusharKesarwani',
-        linkedin: '',
-        Description: `Coming soon, Stay tuned...`,
+        linkedin: 'https://www.linkedin.com/in/tushar104',
+        Description: `This is a Repository where different types of Front - End Projects are present. If you have any front end project then you can contribute to this open source repository.`,
         TechStack: ["HTML5", "CSS3", "JavaScript"],
     },
     {
