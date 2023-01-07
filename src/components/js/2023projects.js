@@ -25,6 +25,15 @@ export const projectsData2023 = [
     //     TechStack: ["Python", "Javascript", "Golang", "Rust"],
     // },
     {
+        Name: 'Rezume',
+        Repo: 'https://github.com/CatsInTech/Rezume/',
+        Owner: 'Praveen Kumar Purushothaman',
+        github: 'https://github.com/praveenscience/',
+        linkedin: 'https://uk.linkedin.com/in/praveentech/',
+        Description: `Rezume is a free online portal for generating resumes without worrying about the styling and formatting. In the web portal, you only need to input the basic information which you want to have on your resume and it will automatically generate a decent resume for you.`,
+        TechStack: ["NodeJs", "Google Chrome", "VSCode", "Git"],
+    },
+    {
         Name: 'User-Auth-Microservice',
         Repo: 'https://github.com/sazamansari/node.js-_microservices',
         Owner: 'Md Shadab Azam Ansari',
