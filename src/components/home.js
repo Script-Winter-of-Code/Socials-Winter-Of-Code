@@ -19,19 +19,7 @@ import 'aos/dist/aos.css';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from 'react-elastic-carousel';
-
-function useEffectfun() {
-    React.useEffect(() => {
-        const script = document.createElement('script');
-        script.src = 'https://apply.devfolio.co/v2/sdk.js';
-        script.async = true;
-        script.defer = true;
-        document.body.appendChild(script);
-        return () => {
-            document.body.removeChild(script);
-        }
-    }, []);
-}
+import Devfoliobutton from './Devfoliobutton';
 
 
 class Home extends Component {
@@ -71,7 +59,6 @@ class Home extends Component {
         const { items } = this.state;
         return (
             <>
-                {useEffectfun}
                 <span hidden="true" id="page-name">Home</span>
                 {/* Header */}
 
@@ -126,11 +113,7 @@ class Home extends Component {
                                             <p className="card-text">{item.cardText}</p>
                                             <div className="btn-apply">
                                                 {item.cardTitle.toLowerCase() == "participant" ?
-(                                                    <div 
-                                                        class="apply-button" 
-                                                        data-hackathon-slug="swocs3" 
-                                                        data-button-theme="light"
-                                                    ></div>)
+(                                                    <Devfoliobutton/>)
                                                     :
                                                     (<a href={item.applyLink} target="_blank"
                                                         className={item.applyStatus.toLowerCase() == "register" ? "" : "disabled"}
