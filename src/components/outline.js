@@ -198,9 +198,8 @@ class Index extends Component {
                                     <div className="f-bottom-right">
                                         <p>
                                             Made with ❤️ by
-                                            <a className="yellow-text underline" href="https://github.com/aku1310" target="_blank"> Akanksha </a>
-                                            and
-                                            <a className="yellow-text underline" href="https://github.com/VishrutAggarwal" target="_blank"> Vishrut</a>
+                                            <a className="yellow-text underline" href="https://www.linkedin.com/company/69075094/admin/" target="_blank"> SWOC </a>
+                                            Team
                                         </p>
                                     </div>
                                 </div>
