@@ -7,15 +7,15 @@ export const registerItems = [
         vision.`,
         applyLink: "",
         // applyLink: "https://forms.gle/eyQM8eJeSWKr3tCD6",
-        applyStatus:"Closed",
+        applyStatus:"Opening Soon",
     },
     {
         cardTitle: "Participant",
         cardText: `Whether you’re a newbie or a seasoned professional, we have a 
         space for everyone. Apply now to become a part of something 
         exciting!`,
-        applyLink: "",
-        applyStatus:"Coming Soon",
+        applyLink: "https://hack2skill.com/hack/swoc",
+        applyStatus:"Started",
     },
     {
         cardTitle: "Mentor",
@@ -25,7 +25,7 @@ export const registerItems = [
         hackathon journey.`,
         applyLink: "",
         // applyLink: "https://docs.google.com/forms/d/19qbZg1a_DSUAKizSxO_8RoAJCCu9jd-Jms17MmAWP4k/edit?ts=63427042",
-        applyStatus:"Closed",
+        applyStatus:"Opening Soon",
     },
 ]
 
