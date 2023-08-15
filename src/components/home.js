@@ -115,11 +115,11 @@ class Home extends Component {
                                                 {item.cardTitle.toLowerCase() == "participant" ?
 (                                                    <Devfoliobutton/>)
                                                     :
-                                                    (<a href={item.applyLink} target="_blank"
-                                                        className={item.applyStatus.toLowerCase() == "register" ? "" : "disabled"}
-                                                        // disabled={item.applyStatus.toLowerCase() != "register" ? "disabled" : ""}
-                                                        readonly>{item.applyStatus}
-                                                    </a>)
+                                                    // (<a href={item.applyLink} target="_blank"
+                                                    //     className={item.applyStatus.toLowerCase() == "register" ? "" : "disabled"}
+                                                    //     // disabled={item.applyStatus.toLowerCase() != "register" ? "disabled" : ""}
+                                                    //     readonly>{item.applyStatus}
+                                                    // </a>)
                                                 }
                                             </div>
                                         </div>
