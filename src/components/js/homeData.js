@@ -31,39 +31,39 @@ export const registerItems = [
 
 export const timelineItems = [
     {
-        timelineDate: "01 Oct 2022",
+        timelineDate: "15 Aug 2023",
         timelineText: `Participant Registration starts`,
     },
     {
-        timelineDate: "05 Oct 2022",
+        timelineDate: "20 Aug 2023",
         timelineText: `Project and Mentor Registration Starts.`,
     },
     {
-        timelineDate: "05 Nov 2022",
+        timelineDate: "15 Dec 2023",
         timelineText: `Project Registrations ends`,
     },
     {
-        timelineDate: "25 Dec 2022",
+        timelineDate: "20 Dec 2023",
         timelineText: `Participants and mentors registrations ends`,
     },
     {
-        timelineDate: "28 Dec 2022",
+        timelineDate: "22 Dec 2023",
         timelineText: `Acceptance Mails Send`,
     },
     {
-        timelineDate: "29 Dec 2022",
+        timelineDate: "22 Dec 2023",
         timelineText: `Projects Announcement`,
     },
     {
-        timelineDate: "1 Jan 2023",
+        timelineDate: "1 Jan 2024",
         timelineText: `SWoC Begins`,
     },
     {
-        timelineDate: "30 Mar 2023",
+        timelineDate: "28 Feb 2024",
         timelineText: `SWoC Ends`,
     },
     {
-        timelineDate: "10 Apr 2023",
+        timelineDate: "15 Mar 2024",
         timelineText: `Results Announcement`,
     },
 ]
