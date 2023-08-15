@@ -113,7 +113,8 @@ class Home extends Component {
                                             <p className="card-text">{item.cardText}</p>
                                             <div className="btn-apply">
                                                 {item.cardTitle.toLowerCase() == "participant" ?
-(                                                    <Devfoliobutton/>)
+(                                                   // <Devfoliobutton/>
+                                               )
                                                     :
                                                     // (<a href={item.applyLink} target="_blank"
                                                     //     className={item.applyStatus.toLowerCase() == "register" ? "" : "disabled"}
