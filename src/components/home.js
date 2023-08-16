@@ -8,7 +8,7 @@ import {
   prizeItems,
   GoldSponsors,
   SilverSponsors,
-  PlatSponsors,
+  PSponsors,
   PlatformPartners,
   Sponsors,
   CommunityPartners,
@@ -114,20 +114,28 @@ class Home extends Component {
                       <h5 className="card-title">{item.cardTitle}</h5>
                       <p className="card-text">{item.cardText}</p>
                       <div className="btn-apply">
-                        {item.cardTitle.toLowerCase() == "participant" ? (
+                        {/* {item.cardTitle.toLowerCase() == "participant" ? (
                           <Devfoliobutton />
                         ) : (
                           <a
                             href={item.applyLink}
                             target="_blank"
-                            className={
-                              item.applyStatus.toLowerCase() == "register"
-                                ? ""
-                                : "disabled"
-                            }
+                            // className={
+                            //   item.applyStatus.toLowerCase() == "register"
+                            //     ? ""
+                            //     : "disabled"
+                            // }
                             // disabled={item.applyStatus.toLowerCase() != "register" ? "disabled" : ""}
-                            readonly
+                            //readonly
                           >
+                            {item.applyStatus}
+                          </a>
+                        )} */}
+
+                        {item.cardTitle.toLowerCase() == "p" ? (
+                          <Devfoliobutton />
+                        ) : (
+                          <a href={item.applyLink} target="_blank">
                             {item.applyStatus}
                           </a>
                         )}
@@ -287,15 +295,15 @@ class Home extends Component {
             <br />
             <div className="community">
               <div className="row">
-                <div className="col-md-12">
-                  <h3>Platinum Sponsors</h3>
+                {/* <div className="col-md-12">
+                  <h3>Sponsors</h3>
                   <br />
                   <div className="community">
                     <div
                       className="row row-img grid"
                       style={{ "justify-content": "center" }}
                     >
-                      {PlatSponsors.map((item, index) => {
+                      {PSponsors.map((item, index) => {
                         return (
                           <div className="col-md-4 col-sm-6 img-div">
                             <a href={item.sponsorLink} target="_blank">
@@ -309,8 +317,8 @@ class Home extends Component {
                       })}
                     </div>
                   </div>
-                </div>
-                <div className="col-md-12">
+                </div> */}
+                {/* <div className="col-md-12">
                   <h3>Gold Sponsors</h3>
                   <br />
                   <div className="community">
@@ -332,8 +340,9 @@ class Home extends Component {
                       })}
                     </div>
                   </div>
-                </div>
-                <div className="col-md-12">
+                </div> */}
+
+                {/* <div className="col-md-12">
                   <h3>Silver Sponsors</h3>
                   <br />
                   <div className="community">
@@ -355,7 +364,7 @@ class Home extends Component {
                       })}
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* <div className="col-md-6">
                                     <h3>Platform Partners</h3>
@@ -376,18 +385,18 @@ class Home extends Component {
                                 </div> */}
               </div>
 
-              {/* <h3>Sponsors</h3>
-                            <div className="row row-img grid mb-4">
-                                {Sponsors.map((item, index) => {
-                                return (
-                                    <div className="col-md-4 img-div">
-                                        <a href={item.sponsorLink} target="_blank">
-                                            <img className="sponsor-img" src={item.sponsorImg} />
-                                        </a>
-                                    </div>                                              
-                                )
-                                })}
-                            </div> */}
+              <h3>Sponsors</h3>
+              <div className="row row-img grid mb-4">
+                {Sponsors.map((item, index) => {
+                  return (
+                    <div className="col-md-4 img-div">
+                      <a href={item.sponsorLink} target="_blank">
+                        <img className="sponsor-img" src={item.sponsorImg} />
+                      </a>
+                    </div>
+                  );
+                })}
+              </div>
 
               {/* <h3>Community Partners</h3>
                             <div className="row row-img grid mb-4">
@@ -408,7 +417,7 @@ class Home extends Component {
               >
                 <br />
                 <a
-                  href="https://drive.google.com/file/d/1po-yevUP5dweJiNdvuiEhsi_IyKlOub8/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1MTdrzl0jZ8YiWXWytSJ_LCUmY15nyNmH/view?usp=sharing"
                   target="_blank"
                   className="btn btn-info btn-lg"
                 >

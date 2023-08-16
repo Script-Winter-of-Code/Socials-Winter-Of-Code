@@ -171,7 +171,7 @@ class Index extends Component {
                                             <ul className="f-nav-ul">
                                                 <li><Link to="/project">Projects</Link></li>
                                                 <li><a href="/#timeline">Timeline</a></li>
-                                                <li><a href="mailto:support@www.swoc.tech">Help</a></li>
+                                                <li><a href="mailto:socialwinterofcodee@gmail.com">Contact Us</a></li>
                                             </ul>
                                         </div>
                                         <div className="footer-copyright-info">
