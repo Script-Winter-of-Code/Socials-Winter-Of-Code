@@ -282,6 +282,6 @@ export const FAQs = [
   {
     questionId: "question8",
     questionText: `What if I have questions other than the one mentioned ?`,
-    answerText: `You can contact us at socialwinterofcode@gmail.com , all your queries would be answered.`,
+    answerText: `You can contact us at socialwinterofcodee@gmail.com , all your queries would be answered.`,
   },
 ];
