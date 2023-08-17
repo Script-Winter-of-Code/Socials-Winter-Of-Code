@@ -281,6 +281,11 @@ export const FAQs = [
   },
   {
     questionId: "question8",
+    questionText: `Are their any Rules to be followed ?`,
+    answerText: `Yes you have to follow our Code of Conduct here is the link to it : https://docs.google.com/document/d/1JQdzFbdIlRNjeBZiyZS-9oXE29n6ps-c4SeehPrud_U/edit?usp=sharing`,
+  },
+  {
+    questionId: "question9",
     questionText: `What if I have questions other than the one mentioned ?`,
     answerText: `You can contact us at socialwinterofcodee@gmail.com , all your queries would be answered.`,
   },

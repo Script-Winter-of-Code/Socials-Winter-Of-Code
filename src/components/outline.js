@@ -212,6 +212,11 @@ class Index extends Component {
                             Contact Us
                           </a>
                         </li>
+                        <li>
+                          <a href="https://docs.google.com/document/d/1JQdzFbdIlRNjeBZiyZS-9oXE29n6ps-c4SeehPrud_U/edit?usp=sharing" target="_blank">
+                            Code of Conduct
+                          </a>
+                        </li>
                       </ul>
                     </div>
                     <div className="footer-copyright-info">
