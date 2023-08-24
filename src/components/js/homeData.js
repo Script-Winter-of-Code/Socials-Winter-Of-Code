@@ -15,7 +15,7 @@ export const registerItems = [
         space for everyone. Apply now to become a part of something 
         exciting!`,
     applyLink: "https://hack2skill.com/hack/swoc",
-    applyStatus: "Started",
+    applyStatus: "Apply Here",
   },
   {
     cardTitle: "Mentor",
