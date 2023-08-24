@@ -7,7 +7,7 @@ export const registerItems = [
         vision.`,
     applyLink: "https://lnkd.in/dMjMQ4aN",
     // applyLink: "https://forms.gle/eyQM8eJeSWKr3tCD6",
-    applyStatus: "Opening Soon",
+    applyStatus: "Apply Here",
   },
   {
     cardTitle: "Participant",
@@ -25,7 +25,7 @@ export const registerItems = [
         hackathon journey.`,
     applyLink: "https://forms.gle/bsSmujNCDUH33QET9",
     // applyLink: "https://docs.google.com/forms/d/19qbZg1a_DSUAKizSxO_8RoAJCCu9jd-Jms17MmAWP4k/edit?ts=63427042",
-    applyStatus: "Opening Soon",
+    applyStatus: "Apply Here",
   },
 ];
 
