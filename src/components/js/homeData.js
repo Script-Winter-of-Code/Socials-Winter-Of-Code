@@ -237,6 +237,17 @@ export const CommunityPartners = [
     sponsorLink: "https://www.linkedin.com/company/eduhub-community/",
     sponsorImg: "./img/logos/Eduhub.png",
   },
+  {
+    sponsorLink: "https://www.linkedin.com/company/eduhub-community/",
+    sponsorImg: "./img/logos/GDSCMakaut.png",
+  },{
+    sponsorLink: "https://www.linkedin.com/company/eduhub-community/",
+    sponsorImg: "./img/logos/GDSCMysore.png",
+  },
+  {
+    sponsorLink: "https://www.linkedin.com/company/eduhub-community/",
+    sponsorImg: "./img/logos/gdsc-tecb.png",
+  },
   
 ];
 
