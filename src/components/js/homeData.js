@@ -237,7 +237,6 @@ export const CommunityPartners = [
     sponsorLink: "https://www.linkedin.com/company/eduhub-community/",
     sponsorImg: "./img/logos/Eduhub.png",
   },
-  
 ];
 
 export const FAQs = [

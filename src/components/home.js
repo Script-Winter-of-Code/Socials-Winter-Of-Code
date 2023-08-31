@@ -21,6 +21,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from "react-elastic-carousel";
 import Devfoliobutton from "./Devfoliobutton";
 
+import CountUp from "react-countup";
+
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -100,6 +102,29 @@ class Home extends Component {
           <div className="about-vector">
             {/* <img src="./img/about.png" /> */}
             <img src="./img/cat.gif" />
+          </div>
+        </section>
+
+        <section>
+          <div className="past-numbers">
+            <div className="number-card">
+              <h2 className="number-title">Total Projects</h2>
+              <div className="countup">
+                <CountUp start={1} end={200} duration={10} />
+              </div>
+            </div>
+            <div className="number-card">
+              <h2 className="number-title">Total Participants</h2>
+              <div className="countup">
+                <CountUp start={1} end={12000} duration={10} />
+              </div>
+            </div>
+            <div className="number-card">
+              <h2 className="number-title">Total Mentors</h2>
+              <div className="countup">
+                <CountUp start={1} end={2000} duration={10} />
+              </div>
+            </div>
           </div>
         </section>
 
@@ -212,7 +237,10 @@ class Home extends Component {
             <h3 className="card__card__title body-content">
               Prizes And Rewards
             </h3>
-            <div className="carousel-container">
+            <h4 className="card__card__title body-content">
+              We will announce soon
+            </h4>
+            {/* <div className="carousel-container">
               <Carousel breakPoints={this.carouselBreakPoints}>
                 {prizeItems.map((item, index) => {
                   return (
@@ -253,7 +281,7 @@ class Home extends Component {
                   );
                 })}
               </Carousel>
-            </div>
+            </div> */}
           </div>
         </section>
 
@@ -389,6 +417,23 @@ class Home extends Component {
               <div className="row row-img grid mb-4">
                 {Sponsors.map((item, index) => {
                   return (
+                    <div className="col-md-3 col-sm-6 img-div" key={index}>
+                      <a href={item.sponsorLink} target="_blank">
+                        <img
+                          className="sponsor-img"
+                          src={item.sponsorImg}
+                          alt={`Sponsor ${index}`}
+                        />
+                      </a>
+                    </div>
+                  );
+                })}
+              </div>
+
+              <h3>Community Partners</h3>
+              <div className="row row-img grid mb-4">
+                {CommunityPartners.map((item, index) => {
+                  return (
                     <div className="col-md-4 img-div">
                       <a href={item.sponsorLink} target="_blank">
                         <img className="sponsor-img" src={item.sponsorImg} />
@@ -397,19 +442,6 @@ class Home extends Component {
                   );
                 })}
               </div>
-
-              <h3>Community Partners</h3>
-                            <div className="row row-img grid mb-4">
-                                {CommunityPartners.map((item, index) => {
-                                return (
-                                    <div className="col-md-4 img-div">
-                                        <a href={item.sponsorLink} target="_blank">
-                                            <img className="sponsor-img" src={item.sponsorImg} />
-                                        </a>
-                                    </div>                                              
-                                )
-                                })}
-                            </div>
 
               <div
                 className="btn-container p-4"
