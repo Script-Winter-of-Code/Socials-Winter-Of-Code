@@ -237,6 +237,30 @@ export const CommunityPartners = [
     sponsorLink: "https://www.linkedin.com/company/eduhub-community/",
     sponsorImg: "./img/logos/Eduhub.png",
   },
+  {
+    sponsorLink: "/",
+    sponsorImg: "./img/logos/GDSCMakaut.png",
+  },{
+    sponsorLink: "/",
+    sponsorImg: "./img/logos/GDSCMysore.png",
+  },
+  {
+    sponsorLink: "/",
+    sponsorImg: "./img/logos/gdsc-tecb.png",
+  },
+  {
+    sponsorLink: "/",
+    sponsorImg: "./img/logos/gdscaliah.png",
+  },
+  {
+    sponsorLink: "/",
+    sponsorImg: "./img/logos/gdsckiet.png",
+  },
+  {
+    sponsorLink: "/",
+    sponsorImg: "./img/logos/GDSCs.jpg",
+  },
+  
 ];
 
 export const FAQs = [
