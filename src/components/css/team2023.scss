@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    //font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Poppins';
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+.header {
+    position: relative;
+    //background-color: #2e82bb;
+    /* Set a light background color */
+    color: #333;
+    padding: 130px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-text {
+    flex: 1;
+    padding-right: 40px;
+    /* Added some spacing between text and image */
+}
+
+.header-title {
+    font-family: 'Poppins' !important;
+    font-size: 4rem !important;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+    margin-bottom: 20px;
+}
+
+.header-description {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.header-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.header-btn:hover {
+    background-color: #c0392b;
+}
+
+.header-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.header-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Container Styles */
+.team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    padding: 40px 20px;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Member Styles */
+.team-member {
+    width: calc(33.33% - 40px);
+    margin: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.member-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.member-image-wrapper:hover {
+    transform: scale(1.05);
+}
+
+.member-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.member-details {
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    transition: transform 0.3s background-color 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.member-details::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    backdrop-filter: blur(10px);
+    // background: linear-gradient(to bottom,
+    //     rgba(255, 255, 255, 0),
+    //     rgba(255, 255, 255, 0.8));
+    z-index: -1;
+    pointer-events: none;
+}
+
+.member-details:hover::before {
+    background: linear-gradient(to bottom,
+        rgba(255, 255, 255, 0),
+         rgba(255, 255, 255, 0.6));
+}
+
+.member-name {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.member-role {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.8rem;
+    color: #777;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #e74c3c;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .team-member {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .team-member {
+        width: 100%;
+    }
+}

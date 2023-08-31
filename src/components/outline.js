@@ -6,7 +6,8 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Home from "./home";
 import Project from "./project";
-// import Team from './team';
+import Team from "./team2023";
+//import Team from "./team";
 
 class Index extends Component {
   constructor(props) {
@@ -162,8 +163,11 @@ class Index extends Component {
             <Project />
           </Route>
           {/* <Route exact path="/team">
-                        <Team />
-                    </Route> */}
+            <Team />
+          </Route> */}
+          <Route exact path="/team">
+            <Team />
+          </Route>
         </Switch>
 
         {/* footer */}
@@ -213,7 +217,10 @@ class Index extends Component {
                           </a>
                         </li>
                         <li>
-                          <a href="https://docs.google.com/document/d/1JQdzFbdIlRNjeBZiyZS-9oXE29n6ps-c4SeehPrud_U/edit?usp=sharing" target="_blank">
+                          <a
+                            href="https://docs.google.com/document/d/1JQdzFbdIlRNjeBZiyZS-9oXE29n6ps-c4SeehPrud_U/edit?usp=sharing"
+                            target="_blank"
+                          >
                             Code of Conduct
                           </a>
                         </li>
