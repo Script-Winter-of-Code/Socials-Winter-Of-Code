@@ -218,10 +218,10 @@ export const Sponsors = [
   //     sponsorLink: "https://www.sashido.io/en/",
   //     sponsorImg: "./img/logos/sashido-logo-for sites.png",
   //   },
-  //   {
-  //     sponsorLink: "https://9ledgepro.com/",
-  //     sponsorImg: "./img/logos/9ledge.jpeg",
-  //   },
+    {
+      sponsorLink: "https://github.com/",
+      sponsorImg: "./img/logos/GitHub_Logo.png",
+    },
   {
     sponsorLink: "https://quine.sh/",
     sponsorImg: "./img/logos/quine.svg",
@@ -233,6 +233,38 @@ export const Sponsors = [
 ];
 
 export const CommunityPartners = [
+  {
+    sponsorLink: "https://www.linkedin.com/company/mlsafabtech/",
+    sponsorImg: "./img/logos/febtech.png",
+  },
+  {
+    sponsorLink: "/",
+    sponsorImg: "./img/logos/gdscldce.png",
+  },
+  {
+    sponsorLink: "/",
+    sponsorImg: "./img/logos/SOSTech.png",
+  },
+  {
+    sponsorLink: "/",
+    sponsorImg: "./img/logos/gdsckota.png",
+  },
+  {
+    sponsorLink: "/",
+    sponsorImg: "./img/logos/GDSCTINT.png",
+  },
+  {
+    sponsorLink: "/",
+    sponsorImg: "./img/logos/gdscbcrec.png",
+  },
+  {
+    sponsorLink: "/",
+    sponsorImg: "./img/logos/gdscgnit.jpg",
+  },
+  {
+    sponsorLink: "/",
+    sponsorImg: "./img/logos/InfinityAI.png",
+  },
   {
     sponsorLink: "https://www.linkedin.com/company/eduhub-community/",
     sponsorImg: "./img/logos/Eduhub.png",
