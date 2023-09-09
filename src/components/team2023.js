@@ -18,7 +18,7 @@ import pritamNandi from "../components/img/Team2023/Pritam_Nandi.jpg";
 import vikasKumarYadav from "../components/img/Team2023/Vikas_Kumar_Yadav.jpg";
 import mohitSingh from "../components/img/Team2023/Mohit_Singh.jpg";
 import anuraghWagh from "../components/img/Team2023/Anurag_Wagh.png";
-
+import sovan from "../components/img/Team2023/sovan.jpg";
 class Team2023 extends Component {
   constructor(props) {
     super(props);
@@ -133,6 +133,13 @@ class Team2023 extends Component {
         linkedin: "https://www.linkedin.com/in/pritamnandi",
         github: "https://github.com/pritam1923",
         image: pritamNandi,
+      },
+      {
+        name: "Sovan Mohanty",
+        role: "Outreach & Management",
+        linkedin: "https://www.linkedin.com/in/sovan-mohanty-a32b64237",
+        github: "https://github.com/sovanmohan",
+        image: sovan,
       },
     ];
 
