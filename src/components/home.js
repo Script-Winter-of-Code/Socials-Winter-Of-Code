@@ -106,6 +106,13 @@ class Home extends Component {
               of programming, all the while developing a deep appreciation for
               the world of open-source.
             </p>
+
+            <p>
+              The students will be also guided by organizing some Workshops and
+              sessions on various topics like Web & App development,
+              Frontend/Backend, Web3, Blockchain, Artificial Intelligence,
+              Machine Learning, Personal Branding
+            </p>
           </div>
           <div className="about-vector">
             {/* <img src="./img/about.png" /> */}
@@ -225,7 +232,7 @@ class Home extends Component {
             <div className="overview-content">
               <h3>Overview</h3>
               <p>
-                Social Winter Of Code is the 3 month long open source program by
+                Social Winter Of Code is the 2 month long open source program by
                 Social India , with the aim to introduce more and more people to
                 the world of Open source. In this program all the selected
                 participants will get a chance to work on various exciting
@@ -235,6 +242,13 @@ class Home extends Component {
                 Participants can select the project based on their interest and
                 tech stack, and can communicate with mentors and project admin
                 to know the project better during the Community bonding Period .
+              </p>
+              <p>
+                We also organise some Sessions & Workshops on various topics to
+                help participants learn and know about various domains like Web
+                & App development Frontend/Backend, Web3, Blockchain, Artificial
+                Intelligence, Machine Learning, Personal Branding, Resume
+                Making, Project Making etc..
               </p>
             </div>
           </div>
