@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import Home from "./home";
 import Project from "./project";
 import Team from "./team2023";
+import Sponsors from "./sponsors";
 //import Team from "./team";
 
 class Index extends Component {
@@ -168,6 +169,9 @@ class Index extends Component {
           <Route exact path="/team">
             <Team />
           </Route>
+          <Route exact path="/sponsors">
+            <Sponsors />
+          </Route>
         </Switch>
 
         {/* footer */}
@@ -201,7 +205,7 @@ class Index extends Component {
                           <a href="/team">Our Team</a>
                         </li>
                         <li>
-                          <a href="/#sponsors">Sponsors</a>
+                          <a href="/sponsors">Sponsors</a>
                         </li>
                       </ul>
                       <ul className="f-nav-ul">

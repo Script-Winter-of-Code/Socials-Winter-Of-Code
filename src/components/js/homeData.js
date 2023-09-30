@@ -1,3 +1,5 @@
+import dummyImage from "../img/dummy-image.webp";
+
 export const registerItems = [
   {
     cardTitle: "Project",
@@ -218,10 +220,10 @@ export const Sponsors = [
   //     sponsorLink: "https://www.sashido.io/en/",
   //     sponsorImg: "./img/logos/sashido-logo-for sites.png",
   //   },
-    {
-      sponsorLink: "https://github.com/",
-      sponsorImg: "./img/logos/GitHub_Logo.png",
-    },
+  {
+    sponsorLink: "https://github.com/",
+    sponsorImg: "./img/logos/GitHub_Logo.png",
+  },
   {
     sponsorLink: "https://quine.sh/",
     sponsorImg: "./img/logos/quine.svg",
@@ -272,7 +274,8 @@ export const CommunityPartners = [
   {
     sponsorLink: "/",
     sponsorImg: "./img/logos/GDSCMakaut.png",
-  },{
+  },
+  {
     sponsorLink: "/",
     sponsorImg: "./img/logos/GDSCMysore.png",
   },
@@ -292,7 +295,100 @@ export const CommunityPartners = [
     sponsorLink: "/",
     sponsorImg: "./img/logos/GDSCs.jpg",
   },
-  
+];
+
+export const PrizeData = [
+  {
+    title: "SWOC, GitHub swags",
+    desc: "Top Contributors",
+    image: dummyImage,
+  },
+  {
+    title: "Linkedin Premium",
+    desc: "Top 3",
+    image: dummyImage,
+  },
+];
+
+export const SpeakerData = [
+  {
+    name: "John Doe",
+    image: dummyImage,
+  },
+  {
+    name: "Jane Smith",
+    image: dummyImage,
+  },
+  {
+    name: "Robert Johnson",
+    image: dummyImage,
+  },
+  {
+    name: "Johnson Robert",
+    image: dummyImage,
+  },
+  {
+    name: "Smith Jane",
+    image: dummyImage,
+  },
+  {
+    name: "Doe John",
+    image: dummyImage,
+  },
+];
+
+export const EventData = [
+  {
+    name: "John Doe",
+    image: dummyImage,
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  },
+  {
+    name: "Jane Smith",
+    image: dummyImage,
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  },
+  {
+    name: "Robert Johnson",
+    image: dummyImage,
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  },
+  {
+    name: "Smith Jane",
+    image: dummyImage,
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  },
+  {
+    name: "Johnson Robert",
+    image: dummyImage,
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  },
+  {
+    name: "Doe John",
+    image: dummyImage,
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  },
+];
+
+export const TestimonialData = [
+  {
+    id: 1,
+    name: "John Doe",
+    role: "Frontend Developer",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae feugiat quam.",
+  },
+  {
+    id: 2,
+    name: "Jane Smith",
+    role: "Backend Developer",
+    text: "Nulla facilisi. Vestibulum nec nunc sit amet erat vestibulum euismod. Donec ut ullamcorper quam.",
+  },
+  {
+    id: 3,
+    name: "Robert Johnson",
+    role: "Designer",
+    text: "Suspendisse potenti. Proin scelerisque orci eu felis blandit, non egestas nisi eleifend.",
+  },
 ];
 
 export const FAQs = [

@@ -9,7 +9,7 @@ export const navItems = [
   },
   {
     title: "Sponsors",
-    url: "/#sponsors",
+    url: "/sponsors",
   },
   {
     title: "Our Team",

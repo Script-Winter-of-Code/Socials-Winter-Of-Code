@@ -13,6 +13,10 @@ import {
   Sponsors,
   CommunityPartners,
   FAQs,
+  TestimonialData,
+  SpeakerData,
+  EventData,
+  PrizeData,
 } from "./js/homeData";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -22,6 +26,7 @@ import Carousel from "react-elastic-carousel";
 import Devfoliobutton from "./Devfoliobutton";
 
 import CountUp from "react-countup";
+import dummyImage from "../components/img/dummy-image.webp";
 
 class Home extends Component {
   constructor(props) {
@@ -56,6 +61,7 @@ class Home extends Component {
 
   render() {
     const { items } = this.state;
+    const itemsToShow = window.innerWidth <= 425 ? 1 : 2;
     return (
       <>
         <span hidden="true" id="page-name">
@@ -67,7 +73,7 @@ class Home extends Component {
           <div className="snow">
             <Particles params={Snow} />
           </div>
-          <div className="header-content">
+          <div className="main-header-content">
             <h1>Social Winter of Code</h1>
             <div className="header-logo">
               <a href="./index.html">
@@ -237,9 +243,31 @@ class Home extends Component {
             <h3 className="card__card__title body-content">
               Prizes And Rewards
             </h3>
-            <h4 className="card__card__title body-content">
-              We will announce soon
-            </h4>
+            <div className="prize-container">
+              {PrizeData.map((prize, index) => (
+                <div
+                  key={index}
+                  className="prize-cards"
+                  data-aos="fade-up"
+                  data-aos-delay={index * 100}
+                >
+                  <div className="prize-image-wrapper">
+                    <img
+                      src={prize.image}
+                      alt={prize.name}
+                      className="prize-image"
+                      onError={(e) => {
+                        e.target.src = dummyImage;
+                      }}
+                    />
+                  </div>
+                  <div className="prize-details">
+                    <h3 className="prize-name">{prize.title}</h3>
+                    <p className="prize-desc">{prize.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
             {/* <div className="carousel-container">
               <Carousel breakPoints={this.carouselBreakPoints}>
                 {prizeItems.map((item, index) => {
@@ -312,18 +340,18 @@ class Home extends Component {
                     </div>
                 </section> */}
 
-        <section className="sponsors-section">
+        {/* <section className="sponsors-section">
           <a name="sponsors"></a>
-          {/* <div className="body-content powered-conatiner">
+          <div className="body-content powered-conatiner">
                         <h3 className="">Powered by</h3>
                         <img src={"/img/logos/Devfolio_Logo.svg"} />
-                    </div> */}
+                    </div>
           <div className="body-content sponsors-conatiner">
             <h3 className="sponsors-title">Our Sponsors</h3>
             <br />
             <div className="community">
               <div className="row">
-                {/* <div className="col-md-12">
+                <div className="col-md-12">
                   <h3>Sponsors</h3>
                   <br />
                   <div className="community">
@@ -345,8 +373,8 @@ class Home extends Component {
                       })}
                     </div>
                   </div>
-                </div> */}
-                {/* <div className="col-md-12">
+                </div>
+                <div className="col-md-12">
                   <h3>Gold Sponsors</h3>
                   <br />
                   <div className="community">
@@ -368,9 +396,9 @@ class Home extends Component {
                       })}
                     </div>
                   </div>
-                </div> */}
+                </div>
 
-                {/* <div className="col-md-12">
+                <div className="col-md-12">
                   <h3>Silver Sponsors</h3>
                   <br />
                   <div className="community">
@@ -392,9 +420,9 @@ class Home extends Component {
                       })}
                     </div>
                   </div>
-                </div> */}
+                </div>
 
-                {/* <div className="col-md-6">
+                <div className="col-md-6">
                                     <h3>Platform Partners</h3>
                                     <br />
                                     <div className="community">
@@ -410,7 +438,7 @@ class Home extends Component {
                                             })}
                                         </div>
                                     </div>
-                                </div> */}
+                                </div>
               </div>
 
               <h3>Sponsors</h3>
@@ -434,9 +462,13 @@ class Home extends Component {
               <div className="row row-img grid mb-4">
                 {CommunityPartners.map((item, index) => {
                   return (
-                    <div className="col-md-4 img-div">
+                    <div className="col-md-3 col-sm-6 img-div">
                       <a href={item.sponsorLink} target="_blank">
-                        <img className="sponsor-img" src={item.sponsorImg} />
+                        <img
+                          className="sponsor-img"
+                          src={item.sponsorImg}
+                          alt={`Sponsor ${index}`}
+                        />
                       </a>
                     </div>
                   );
@@ -457,6 +489,111 @@ class Home extends Component {
                 </a>
               </div>
             </div>
+          </div>
+        </section> */}
+
+        <section className="speaker-section">
+          <h1>Speakers</h1>
+          <Carousel
+            breakPoints={[
+              { width: 1, itemsToShow: 1 },
+              { width: 768, itemsToShow: 2 },
+              { width: 1024, itemsToShow: 3 },
+            ]}
+            itemsToShow={3}
+            enableAutoPlay={true}
+            autoPlaySpeed={5000}
+            pagination={false}
+          >
+            {SpeakerData.map((speaker, index) => (
+              <div
+                className="speaker-card"
+                key={index}
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
+              >
+                <div className="speaker-image-wrapper">
+                  <img
+                    className="speaker-img"
+                    src={speaker.image}
+                    alt={`Speaker ${index}`}
+                  />
+                </div>
+                <h4 className="speaker-name">{speaker.name}</h4>
+                <a
+                  // href={speaker.registerLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="register-button"
+                >
+                  Register
+                </a>
+              </div>
+            ))}
+          </Carousel>
+        </section>
+
+        <section className="event-section">
+          <h1>Events</h1>
+          <Carousel
+            breakPoints={[
+              { width: 1, itemsToShow: 1 },
+              { width: 768, itemsToShow: 2 },
+              { width: 1024, itemsToShow: 3 },
+            ]}
+            itemsToShow={3}
+            enableAutoPlay={true}
+            autoPlaySpeed={5000}
+            pagination={false}
+          >
+            {EventData.map((event, index) => (
+              <div
+                className="event-card"
+                key={index}
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
+              >
+                <div className="event-image-wrapper">
+                  <img
+                    className="event-img"
+                    src={event.image}
+                    alt={`Speaker ${index}`}
+                  />
+                </div>
+                <h4 className="event-name">{event.name}</h4>
+                <p className="event-desc">{event.desc}</p>
+                <a
+                  // href={speaker.registerLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="register-button"
+                >
+                  Register
+                </a>
+              </div>
+            ))}
+          </Carousel>
+        </section>
+
+        <section className="testimonials-section">
+          <div className="testimonials-container">
+            <h2>What Our Participants Say</h2>
+            <Carousel
+              itemsToShow={1}
+              enableAutoPlay={true}
+              autoPlaySpeed={5000}
+              pagination={false} // Hide default pagination dots
+            >
+              {TestimonialData.map((testimonial) => (
+                <div className="testimonial" key={testimonial.id}>
+                  <p className="testimonial-text">{testimonial.text}</p>
+                  <div className="testimonial-author">
+                    <span className="testimonial-name">{testimonial.name}</span>
+                    <span className="testimonial-role">{testimonial.role}</span>
+                  </div>
+                </div>
+              ))}
+            </Carousel>
           </div>
         </section>
 
