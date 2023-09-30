@@ -29,6 +29,7 @@ body {
 }
 
 .header-content {
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,6 +85,40 @@ body {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .header {
+        padding: 80px 0;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+ 
+    }
+
+    .header-text {
+        flex: none;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .header-title {
+        font-size: 2.5rem !important;
+        padding-right: 0;
+    }
+
+    .header-description {
+        font-size: 1.2rem;
+    }
+
+    .header-image {
+        margin-top: 20px;
+        align-items: center;
+    }
 }
 
 /* Team Container Styles */
