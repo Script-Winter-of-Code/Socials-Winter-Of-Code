@@ -108,13 +108,19 @@ body {
     }
 
     .sponsor-header-description {
-        font-size: 1rem;
-        margin-left: 2rem;
+        font-size: 1.2rem;
     }
 
     .header-image {
         margin-top: 20px;
         align-items: center;
+    }
+    .sponsor-container {
+        justify-content: center !important;
+    }
+    
+    .sponsor-item {
+        width: calc(50% - 5px) !important;
     }
 }
 
@@ -166,3 +172,4 @@ h3 {
     margin: 0 auto;
     border-radius: 5px;
 }
+
