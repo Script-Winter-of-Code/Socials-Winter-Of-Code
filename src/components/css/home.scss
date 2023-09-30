@@ -1159,7 +1159,7 @@ h2 {
 }
 
 @media only screen and (max-width: 1100px) {
-  .header-content {
+  .main-header-content {
     padding: 6rem 7rem 10rem;
     h1 {
       display: block;
@@ -1257,10 +1257,10 @@ h2 {
 }
 
 @media only screen and (max-width: 680px) {
-  .header-content {
+  .main-header-content {
     padding: 5rem 6rem 9rem;
   }
-  .header-content h1 {
+  .main-header-content h1 {
     display: block;
     font-size: 3rem;
   }
@@ -1295,10 +1295,10 @@ h2 {
   .header {
     min-height: 350px;
   }
-  .header-content {
+  .main-header-content {
     padding: 4rem 6rem 7rem;
   }
-  .header-content h1 {
+  .main-header-content h1 {
     display: block;
     font-size: 2rem;
   }
@@ -1359,10 +1359,10 @@ h2 {
   .header {
     min-height: 320px;
   }
-  .header-content {
+  .main-header-content {
     padding: 4rem 4rem 5rem;
   }
-  .header-content h1 {
+  .main-header-content h1 {
     display: block;
     font-size: 2rem;
   }
@@ -1388,10 +1388,10 @@ h2 {
 }
 
 @media only screen and (max-width: 360px) {
-  .header-content {
+  .main-header-content {
     padding: 4rem 2rem 5rem;
   }
-  .header-content h1 {
+  .main-header-content h1 {
     display: block;
     font-size: 2rem;
   }
