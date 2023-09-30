@@ -651,13 +651,13 @@ time {
 }
 
 .prize-name {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
   color: #333;
 }
 
 .prize-desc {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 20px;
   color: #666;
 }
@@ -785,7 +785,7 @@ time {
 
 // Speaker Section
 .speaker-section {
-  padding: 50px 0;
+  padding: 50px 30px;
   text-align: center;
 }
 
@@ -802,7 +802,7 @@ time {
   padding: 10px;
   border-radius: 10px;
   transition: transform 0.2s, box-shadow 0.2s;
-  width: 400px;
+  width: 325px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -817,22 +817,22 @@ time {
 
 .speaker-image-wrapper {
   width: 100%;
-  height: 100%;
+  height: auto;
   overflow: hidden;
   margin: 0 auto;
+  margin-bottom: -50px;
 }
 
 .speaker-img {
   width: 100%;
-  height: 100%;
+  height: 75%;
   object-fit: cover;
   display: block;
 }
 
 .speaker-name {
   font-size: 20px;
-  margin-top: 15px;
-  margin-bottom: 20px;
+  margin-top: 5px;
   color: #333;
   font-weight: bold;
   text-align: center;
@@ -855,6 +855,22 @@ time {
   background-color: #0056b3;
 }
 
+.speaker-social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.speaker-social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.8rem;
+  color: #777;
+  transition: color 0.3s;
+}
+
+.speaker-social-links a:hover {
+  color: #e74c3c;
+}
 
 // Event Section
 .event-section {
@@ -876,7 +892,7 @@ time {
   border-radius: 10px;
   transition: transform 0.2s, box-shadow 0.2s;
   width: 400px;
-  height: 800px;
+  height: auto;
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
@@ -890,22 +906,23 @@ time {
 
 .event-image-wrapper {
   width: 100%;
-  height: 100%;
+  height: auto;
   overflow: hidden;
   margin: 0 auto;
+  margin-bottom: -96px;
 }
 
 .event-img {
   width: 100%;
-  height: 100%;
+  height: 62%;
   object-fit: cover;
   display: block;
 }
 
 .event-name {
   font-size: 20px;
-  margin-top: 15px;
-  margin-bottom: 20px;
+  //margin-top: 15px;
+  //margin-bottom: 20px;
   color: #333;
   font-weight: bold;
   text-align: center;

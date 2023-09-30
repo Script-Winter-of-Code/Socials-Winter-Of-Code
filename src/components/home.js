@@ -27,6 +27,8 @@ import Devfoliobutton from "./Devfoliobutton";
 
 import CountUp from "react-countup";
 import dummyImage from "../components/img/dummy-image.webp";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 class Home extends Component {
   constructor(props) {
@@ -534,14 +536,23 @@ class Home extends Component {
                   />
                 </div>
                 <h4 className="speaker-name">{speaker.name}</h4>
-                <a
+                {/* <a
                   // href={speaker.registerLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="register-button"
                 >
                   Register
-                </a>
+                </a> */}
+                <div className="speaker-social-links">
+                  <a
+                    href={speaker.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faLinkedin} />
+                  </a>
+                </div>
               </div>
             ))}
           </Carousel>
