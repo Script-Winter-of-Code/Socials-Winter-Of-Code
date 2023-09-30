@@ -314,26 +314,32 @@ export const SpeakerData = [
   {
     name: "John Doe",
     image: dummyImage,
+    linkedin: "https://www.socialwinterofcode.com/",
   },
   {
     name: "Jane Smith",
     image: dummyImage,
+    linkedin: "https://www.socialwinterofcode.com/",
   },
   {
     name: "Robert Johnson",
     image: dummyImage,
+    linkedin: "https://www.socialwinterofcode.com/",
   },
   {
     name: "Johnson Robert",
     image: dummyImage,
+    linkedin: "https://www.socialwinterofcode.com/",
   },
   {
     name: "Smith Jane",
     image: dummyImage,
+    linkedin: "https://www.socialwinterofcode.com/",
   },
   {
     name: "Doe John",
     image: dummyImage,
+    linkedin: "https://www.socialwinterofcode.com/",
   },
 ];
 
@@ -341,32 +347,32 @@ export const EventData = [
   {
     name: "John Doe",
     image: dummyImage,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     name: "Jane Smith",
     image: dummyImage,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     name: "Robert Johnson",
     image: dummyImage,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
   },
   {
     name: "Smith Jane",
     image: dummyImage,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     name: "Johnson Robert",
     image: dummyImage,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     name: "Doe John",
     image: dummyImage,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
 ];
 
