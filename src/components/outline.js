@@ -205,7 +205,15 @@ class Index extends Component {
                           <a href="/team">Our Team</a>
                         </li>
                         <li>
+
                           <a href="/sponsors">Sponsors</a>
+
+                          <a
+                            href="https://drive.google.com/drive/folders/1OxvwTBWIifLF_xQAcrOPz10_w0zc7KUy?usp=sharing"
+                            target="_blank"
+                          >
+                            SWOC Brandings
+                          </a>
                         </li>
                       </ul>
                       <ul className="f-nav-ul">
@@ -230,6 +238,7 @@ class Index extends Component {
                         </li>
                       </ul>
                     </div>
+                    
                     <div className="footer-copyright-info">
                       <div className="footer-copyright-right">
                         Copyright © 2020 Social under the GPL3 license. All
@@ -252,8 +261,7 @@ class Index extends Component {
               <div className="f-bottom-row">
                 <div className="f-bottom">
                   <div className="f-bottom-left">
-                    <p>Social</p>
-                    {/* <img src={"./img/ScriptFoundation_Logo_RD_02.png"} style={{ "width": "162px"}}></img> */}
+                    <p>SWOC</p>
                   </div>
                   <div className="f-bottom-right">
                     <p>
