@@ -1,4 +1,7 @@
 import dummyImage from "../img/dummy-image.webp";
+import Lin from "../img/Lin.png";
+import faviacon from "../img/favicon-logo-2.png";
+import xyz from "../img/xyz-logo.png";
 
 export const registerItems = [
   {
@@ -299,14 +302,24 @@ export const CommunityPartners = [
 
 export const PrizeData = [
   {
-    title: "SWOC, GitHub swags",
-    desc: "Top Contributors",
-    image: dummyImage,
+    title: "SWOC, GitHub swag kits",
+    desc: "Top 10 Contributors",
+    image: faviacon,
   },
   {
-    title: "Linkedin Premium",
+    title: "Linkedin Premium free 1 year",
     desc: "Top 3",
-    image: dummyImage,
+    image: Lin,
+  },
+  {
+    title: ".xyz domains",
+    desc: "Top 40",
+    image: xyz,
+  },
+  {
+    title: "Participation Certificate",
+    desc: "For all.....",
+    image: faviacon,
   },
 ];
 
