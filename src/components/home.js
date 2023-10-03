@@ -508,7 +508,7 @@ class Home extends Component {
           </div>
         </section> */}
 
-        <section className="speaker-section">
+        {/* <section className="speaker-section">
           <h1>Speakers</h1>
           <Carousel
             breakPoints={[
@@ -536,14 +536,6 @@ class Home extends Component {
                   />
                 </div>
                 <h4 className="speaker-name">{speaker.name}</h4>
-                {/* <a
-                  // href={speaker.registerLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="register-button"
-                >
-                  Register
-                </a> */}
                 <div className="speaker-social-links">
                   <a
                     href={speaker.linkedin}
@@ -556,7 +548,7 @@ class Home extends Component {
               </div>
             ))}
           </Carousel>
-        </section>
+        </section> */}
 
         <section className="event-section">
           <h1>Events</h1>
@@ -588,7 +580,7 @@ class Home extends Component {
                 <h4 className="event-name">{event.name}</h4>
                 <p className="event-desc">{event.desc}</p>
                 <a
-                  // href={speaker.registerLink}
+                  href={event.registerLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="register-button"
