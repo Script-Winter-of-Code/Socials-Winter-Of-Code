@@ -2,6 +2,7 @@ import dummyImage from "../img/dummy-image.webp";
 import Lin from "../img/Lin.png";
 import faviacon from "../img/favicon-logo-2.png";
 import xyz from "../img/xyz-logo.png";
+import event1 from "../img/Events2023/swoc_speaker1.png";
 
 export const registerItems = [
   {
@@ -358,35 +359,36 @@ export const SpeakerData = [
 
 export const EventData = [
   {
-    name: "John Doe",
-    image: dummyImage,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    name: "Jaskaran Singh",
+    image: event1,
+    desc: "How to do competitive coding and getting started with DSA",
+    registerLink: "https://hack2skill.com/hack/swoc",
   },
-  {
-    name: "Jane Smith",
-    image: dummyImage,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    name: "Robert Johnson",
-    image: dummyImage,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-  },
-  {
-    name: "Smith Jane",
-    image: dummyImage,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    name: "Johnson Robert",
-    image: dummyImage,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
-  {
-    name: "Doe John",
-    image: dummyImage,
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  },
+  // {
+  //   name: "Jane Smith",
+  //   image: dummyImage,
+  //   desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  // },
+  // {
+  //   name: "Robert Johnson",
+  //   image: dummyImage,
+  //   desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+  // },
+  // {
+  //   name: "Smith Jane",
+  //   image: dummyImage,
+  //   desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  // },
+  // {
+  //   name: "Johnson Robert",
+  //   image: dummyImage,
+  //   desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  // },
+  // {
+  //   name: "Doe John",
+  //   image: dummyImage,
+  //   desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  // },
 ];
 
 export const TestimonialData = [
