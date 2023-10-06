@@ -205,9 +205,9 @@ class Index extends Component {
                           <a href="/team">Our Team</a>
                         </li>
                         <li>
-
                           <a href="/sponsors">Sponsors</a>
-
+                        </li>
+                        <li>
                           <a
                             href="https://drive.google.com/drive/folders/1OxvwTBWIifLF_xQAcrOPz10_w0zc7KUy?usp=sharing"
                             target="_blank"
@@ -238,7 +238,7 @@ class Index extends Component {
                         </li>
                       </ul>
                     </div>
-                    
+
                     <div className="footer-copyright-info">
                       <div className="footer-copyright-right">
                         Copyright © 2020 Social under the GPL3 license. All
