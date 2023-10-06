@@ -11,7 +11,6 @@ import abhishekAnand from "../components/img/Team2023/Abhishek_Anand.jpg";
 import abhishekMankuskar from "../components/img/Team2023/Abhishek_Mankuskar.jpg";
 import jaySaadana from "../components/img/Team2023/Jay_Saadana.jpg";
 import abhishekSharma from "../components/img/Team2023/Abhishek_Sharma.jpg";
-import anujaDauskar from "../components/img/Team2023/Anuja_Dauskar.png";
 import hariprasadSakhare from "../components/img/Team2023/Hariprasad_Sakhare.jpg";
 import nitishSheoran from "../components/img/Team2023/Nitish_Sheoran .jpg";
 import pritamNandi from "../components/img/Team2023/Pritam_Nandi.jpg";
@@ -105,13 +104,6 @@ class Team2023 extends Component {
         linkedin: "https://www.linkedin.com/in/nitishsheoran/",
         github: "https://github.com/iNitishSheoran",
         image: nitishSheoran,
-      },
-      {
-        name: "Anuja Dauskar",
-        role: "Web Developer",
-        linkedin: "https://www.linkedin.com/in/anuja-dauskar-a3a47a239",
-        github: "https://github.com/anuja37",
-        image: anujaDauskar,
       },
       {
         name: "Mohit Singh",

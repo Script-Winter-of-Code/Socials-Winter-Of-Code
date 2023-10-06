@@ -176,54 +176,7 @@ export const PlatformPartners = [
 ];
 
 export const Sponsors = [
-  //   {
-  //     sponsorLink: "https://codingblocks.com/",
-  //     sponsorImg: "./img/logos/cb-min.png",
-  //   },
-  //   {
-  //     sponsorLink: "https://dockship.io/",
-  //     sponsorImg: "./img/logos/dockship-min.png",
-  //   },
-  //   {
-  //     sponsorLink: "https://givemycertificate.com/",
-  //     sponsorImg: "./img/logos/gitvemycertifiacte-min.png",
-  //   },
-  //   {
-  //     sponsorLink: "https://hackclub.com/bank/",
-  //     sponsorImg: "./img/logos/hackclub-min.png",
-  //   },
-  //   {
-  //     sponsorLink: "https://1password.com/",
-  //     sponsorImg: "./img/logos/1password-min.png",
-  //   },
-  //   {
-  //     sponsorLink: "https://balsamiq.com/",
-  //     sponsorImg: "./img/logos/balsamiq-logo-noborder-print-min.png",
-  //   },
-  //   {
-  //     sponsorLink: "https://repl.it/",
-  //     sponsorImg: "./img/logos/replit-min.png",
-  //   },
-  //   {
-  //     sponsorLink: "http://rosenfeldmedia.com/",
-  //     sponsorImg: "./img/logos/Rosenfeld-min.png",
-  //   },
-  //   {
-  //     sponsorLink: "https://www.jetbrains.com/",
-  //     sponsorImg: "./img/logos/jetbrains-min.png",
-  //   },
-  //   {
-  //     sponsorLink: "https://www.axure.com/",
-  //     sponsorImg: "./img/logos/axure.png",
-  //   },
-  //   {
-  //     sponsorLink: "https://www.digitalocean.com/",
-  //     sponsorImg: "./img/logos/DO_Logo_Horizontal_Blue.png",
-  //   },
-  //   {
-  //     sponsorLink: "https://www.sashido.io/en/",
-  //     sponsorImg: "./img/logos/sashido-logo-for sites.png",
-  //   },
+  //  
   {
     sponsorLink: "https://github.com/",
     sponsorImg: "./img/logos/GitHub_Logo.png",
@@ -394,22 +347,17 @@ export const EventData = [
 export const TestimonialData = [
   {
     id: 1,
-    name: "John Doe",
-    role: "Frontend Developer",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae feugiat quam.",
+    name: "Akshita Gupta",
+    role: "Project Admin",
+    text: "I have proudly served as a project admin for Script Winter of Code for the past three seasons. I can confidently assert that it ranks among the finest open-source programs for both novice and experienced contributors.",
   },
   {
     id: 2,
-    name: "Jane Smith",
-    role: "Backend Developer",
-    text: "Nulla facilisi. Vestibulum nec nunc sit amet erat vestibulum euismod. Donec ut ullamcorper quam.",
+    name: "Rohan Gupta",
+    role: "Contributor SWOC",
+    text: "It was a Great experience learned a lot of new things and it also helped me in my interviews thanks to SWOC Team",
   },
-  {
-    id: 3,
-    name: "Robert Johnson",
-    role: "Designer",
-    text: "Suspendisse potenti. Proin scelerisque orci eu felis blandit, non egestas nisi eleifend.",
-  },
+  
 ];
 
 export const FAQs = [

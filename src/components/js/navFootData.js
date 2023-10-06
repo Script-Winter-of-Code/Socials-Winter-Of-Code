@@ -34,16 +34,8 @@ export const socialMedia = [
     socialLink: "https://twitter.com/SWOC12",
     socialIcon: "fa fa-twitter",
   },
-  // {
-  //   socialLink: "https://instagram.com/swoc_2021?igshid=161caask7073c",
-  //   socialIcon: "fa fa-instagram",
-  // },
   {
-    socialLink: "https://www.youtube.com/channel/UC4OVJeHogUQDHws7AKG7dMA",
+    socialLink: "https://youtube.com/@SocialWinterofCode?si=evyJ-XolqCjwF3Z5",
     socialIcon: "fa fa-youtube",
   },
-  // {
-  //   socialLink: "https://www.facebook.com/scriptfoundationindia",
-  //   socialIcon: "fa fa-facebook",
-  // },
 ];
