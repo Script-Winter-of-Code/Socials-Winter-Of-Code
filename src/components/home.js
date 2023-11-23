@@ -587,6 +587,14 @@ class Home extends Component {
                 >
                   Register
                 </a>
+                <a
+                  href={event.eventLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="register-button"
+                >
+                  Event Link
+                </a>
               </div>
             ))}
           </Carousel>

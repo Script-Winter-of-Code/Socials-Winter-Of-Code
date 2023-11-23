@@ -3,7 +3,7 @@ import "../components/css/sponsors.scss";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import { Sponsors, CommunityPartners } from "./js/homeData";
+import { Sponsors, CommunityPartners, PlatformPartners } from "./js/homeData";
 import bgImage from "../components/img/bg-team.svg";
 
 class Sponsors2023 extends Component {
@@ -86,6 +86,20 @@ class Sponsors2023 extends Component {
           <h3>Community Partners</h3>
           <div className="sponsor-container">
             {CommunityPartners.map((sponsor, index) => (
+              <div className="sponsor-item" key={index}>
+                <img
+                  className="sponsor-img"
+                  src={sponsor.sponsorImg}
+                  alt={`Sponsor ${index}`}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="section">
+          <h3>Platform Partners</h3>
+          <div className="sponsor-container">
+            {PlatformPartners.map((sponsor, index) => (
               <div className="sponsor-item" key={index}>
                 <img
                   className="sponsor-img"

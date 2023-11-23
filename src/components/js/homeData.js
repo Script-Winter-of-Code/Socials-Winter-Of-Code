@@ -3,6 +3,10 @@ import Lin from "../img/Lin.png";
 import faviacon from "../img/favicon-logo-2.png";
 import xyz from "../img/xyz-logo.png";
 import event1 from "../img/Events2023/swoc_speaker1.png";
+import event4 from "../img/Events2023/swoc_speaker4.png";
+import event3 from "../img/Events2023/swoc_speaker3.jpg";
+import event2 from "../img/Events2023/swoc_speaker2.jpg";
+import hack2skill from "../img/hack2skill_logo.jpg";
 
 export const registerItems = [
   {
@@ -168,15 +172,9 @@ export const PSponsors = [
     sponsorImg: "./img/logos/xyz-logo,png",
   },
 ];
-export const PlatformPartners = [
-  {
-    sponsorLink: "https://skillenza.com/",
-    sponsorImg: "./img/logos/Skillenza_logo_platform_new.svg",
-  },
-];
 
 export const Sponsors = [
-  //  
+  //
   {
     sponsorLink: "https://github.com/",
     sponsorImg: "./img/logos/GitHub_Logo.png",
@@ -254,6 +252,13 @@ export const CommunityPartners = [
   },
 ];
 
+export const PlatformPartners = [
+  {
+    sponsorLink: "/",
+    sponsorImg: hack2skill,
+  },
+];
+
 export const PrizeData = [
   {
     title: "SWOC, GitHub swag kits",
@@ -316,6 +321,28 @@ export const EventData = [
     image: event1,
     desc: "How to do competitive coding and getting started with DSA",
     registerLink: "https://hack2skill.com/hack/swoc",
+    eventLink: "https://www.youtube.com/watch?v=VBX5T5DIbAo",
+  },
+  {
+    name: "Ayush Kumar",
+    image: event2,
+    desc: "A journey into open source",
+    registerLink: "https://hack2skill.com/hack/swoc",
+    eventLink: "https://www.youtube.com/watch?v=GxyzYUVhraE",
+  },
+  {
+    name: "Shubham Londhe",
+    image: event3,
+    desc: "Career in devops and cloud in the era of AI",
+    registerLink: "https://hack2skill.com/hack/swoc",
+    eventLink: "https://www.youtube.com/watch?v=ObU2iGPlUx4",
+  },
+  {
+    name: "Khushi Agarwal",
+    image: event4,
+    desc: "Benefits of linkedin for connecting and finding job",
+    registerLink: "https://hack2skill.com/hack/swoc",
+    eventLink: "https://www.youtube.com/watch?v=LmHy4eNMsXU",
   },
   // {
   //   name: "Jane Smith",
@@ -357,7 +384,6 @@ export const TestimonialData = [
     role: "Contributor SWOC",
     text: "It was a Great experience learned a lot of new things and it also helped me in my interviews thanks to SWOC Team",
   },
-  
 ];
 
 export const FAQs = [
