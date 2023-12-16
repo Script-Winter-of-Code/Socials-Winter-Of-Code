@@ -8,6 +8,7 @@ import event3 from "../img/Events2023/swoc_speaker3.jpg";
 import event2 from "../img/Events2023/swoc_speaker2.jpg";
 import hack2skill from "../img/hack2skill_logo.jpg";
 import whereUElevatelogo from "../img/logos/where-u-elevate.png";
+import endless from "../img/logos/Endless.jpg";
 
 export const registerItems = [
   {
@@ -187,6 +188,10 @@ export const Sponsors = [
   {
     sponsorLink: "https://gen.xyz/",
     sponsorImg: "./img/logos/xyz-logo.png",
+  },
+  {
+    sponsorLink: "/",
+    sponsorImg: endless,
   },
 ];
 
