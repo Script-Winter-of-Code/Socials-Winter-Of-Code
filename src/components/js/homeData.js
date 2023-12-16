@@ -7,7 +7,7 @@ import event4 from "../img/Events2023/swoc_speaker4.png";
 import event3 from "../img/Events2023/swoc_speaker3.jpg";
 import event2 from "../img/Events2023/swoc_speaker2.jpg";
 import hack2skill from "../img/hack2skill_logo.jpg";
-import whereUElevate from "../img/logos/where-u-elevate.png";
+import whereUElevatelogo from "../img/logos/where-u-elevate.png";
 
 export const registerItems = [
   {
@@ -263,7 +263,7 @@ export const PlatformPartners = [
 export const InnovationPartners = [
   {
     sponsorLink: "/",
-    sponsorImg: whereUElevate,
+    sponsorImg: whereUElevatelogo,
   },
 ];
 
