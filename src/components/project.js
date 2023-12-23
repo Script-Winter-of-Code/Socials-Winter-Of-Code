@@ -4,6 +4,7 @@ import { projectsDataNewer } from "./js/2022projects";
 import { projectsDataLatest } from "./js/2021projects";
 import { projectsDataPrevOne } from "./js/2020projects";
 import { featured2023, projectsData2023 } from "./js/2023projects";
+import { featured2024, projectsData2024 } from "./js/2024projects";
 import Particles from "react-particles-js";
 import { Snow } from "./snow";
 import Aos from "aos";
@@ -15,13 +16,13 @@ class Project extends Component {
     this.state = {
       width: window.innerWidth,
       height: window.innerHeight,
-      projectList: projectsData2023,
+      projectList: projectsData2024,
       randomColor: ["#fff"],
       activeStack: "",
       scrollStamp: 0,
       modalDisplay: "none",
       bodyOverflow: "initial",
-      modalData: projectsData2023[0],
+      modalData: projectsData2024[0],
     };
   }
 
@@ -90,7 +91,7 @@ class Project extends Component {
                 <h1>Featured Project 2024</h1>
                 <div>
                   <br></br>
-                  {featured2023.map((item, index) => {
+                  {featured2024.map((item, index) => {
                     let randomColorIndex = Math.floor(
                       Math.random() * this.state.randomColor.length
                     );
@@ -299,6 +300,19 @@ class Project extends Component {
                 />
               </div>
               <div className="p-prev-projs">
+                <button
+                  className="p-projs2024"
+                  type="button"
+                  onClick={() => {
+                    this.setState({
+                      projectList: projectsData2024,
+                      activeStack: "",
+                    });
+                    window.location.href = "#projs";
+                  }}
+                >
+                  2024 Projects
+                </button>
                 <button
                   className="p-projs2023"
                   type="button"
