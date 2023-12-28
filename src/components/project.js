@@ -444,6 +444,7 @@ class Project extends Component {
                         >
                           See More<i className="fa fa-angle-right"></i>
                         </button>
+                        <span className="p-serial-number">{index + 1}</span>
                       </div>
                     </div>
                   );

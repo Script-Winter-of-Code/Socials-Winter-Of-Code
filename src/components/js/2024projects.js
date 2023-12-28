@@ -16,6 +16,26 @@ export const featured2024 = [
 
 export const projectsData2024 = [
   {
+    Name: "DL-Simplified",
+    Repo: "https://github.com/abhisheks008/DL-Simplified",
+    Owner: "Abhishek Sharma",
+    github: "https://github.com/abhisheks008",
+    linkedin: "https://www.linkedin.com/in/abhishek-sharma-aa06a9183/",
+    Description: `Deep Learning Simplified is an Open-source repository, containing beginner to advance level deep learning projects for the contributors, who are willing to start their journey in Deep Learning.`,
+    TechStack: [
+      "Deep Learning",
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Data Analysis",
+      "Keras",
+      "Tensorflow",
+      "Neural Networks",
+      "NLP",
+      "Image Processing",
+      "Computer Vision",
+    ],
+  },
+  {
     Name: "Resonate",
     Repo: "https://github.com/AOSSIE-Org/Resonate",
     Owner: "Chandan S Gowda",
