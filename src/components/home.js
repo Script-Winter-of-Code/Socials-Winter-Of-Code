@@ -185,6 +185,13 @@ class Home extends Component {
                 );
               })}
             </div>
+            {/* Note for those unable to participate in SWOC */}
+            <div className="note-section">
+              <p>
+                Those who were unable to participate in SWOC, don't worry! Stay
+                tuned; we are soon coming with SSOC in some months.
+              </p>
+            </div>
           </div>
         </section>
 

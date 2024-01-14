@@ -947,6 +947,19 @@ time {
   text-decoration: none;
 }
 
+.note-section {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.note-section p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
 
 
 /* Testimonials Section */
