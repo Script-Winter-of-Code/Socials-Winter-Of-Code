@@ -11,6 +11,7 @@ import whereUElevatelogo from "../img/logos/where-u-elevate.png";
 import endless from "../img/logos/Endless.jpg";
 import codingninja from "../img/coding-ninja.jpg";
 import codingninja1 from "../img/coding-ninja-1.jpeg";
+import gmc from "../img/GMC LogoS.png";
 
 export const registerItems = [
   {
@@ -196,8 +197,12 @@ export const Sponsors = [
     sponsorImg: endless,
   },
   {
-    sponsorLink: "",
+    sponsorLink: "/",
     sponsorImg: codingninja,
+  },
+  {
+    sponsorLink: "/",
+    sponsorImg: gmc,
   },
 ];
 
