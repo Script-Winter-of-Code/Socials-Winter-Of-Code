@@ -289,11 +289,11 @@ export const PrizeData = [
     desc: "Top 10 Contributors",
     image: faviacon,
   },
-  {
-    title: "Linkedin Premium free 1 year",
-    desc: "Top 2",
-    image: Lin,
-  },
+  // {
+  //   title: "Linkedin Premium free 1 year",
+  //   desc: "Top 2",
+  //   image: Lin,
+  // },
   {
     title: ".xyz domains",
     desc: "Top 40",
